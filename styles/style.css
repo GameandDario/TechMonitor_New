@@ -1,3 +1,17 @@
+/* Hover on links */
+a:hover {
+    color: #60ff00 !important;
+/* ça marche pas sur le menu, à voir doc bootstrap (on verra demain) */
+
+/* Hover Responsive */
+  }
+  a:focus {
+    color: #60ff00 !important;
+  }
+  a:active {
+    color: #60ff00 !important;
+  }
+
 /******************** carousel ***************/
 .carousel-item {
     height: 65vh;
@@ -80,7 +94,7 @@ element.style {
     max-width: 100%;
     height: auto;
 }
-/* My CSS Patch Test (branche Seb, 15h43s) */
+
 
 
 /* Products CSS */
