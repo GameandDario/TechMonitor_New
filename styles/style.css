@@ -1,1 +1,130 @@
-/* This is my CSS, woo hoo */
+/******************** carousel ***************/
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    background-image: url("https://images.wallpaperscraft.com/image/code_binary_code_glow_136085_2560x1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: none;
+    font-family: 'Srisakdi', cursive;
+    font-size: 3vh;
+    margin:0;
+    padding:0;
+}
+
+element.style {
+    width: 70vh;
+}
+
+
+
+/********************** Modif sur la page index *************/
+
+
+.searchnav{
+    margin-left: 100px;
+}
+
+.navbar-toggler{
+    margin-top: 4px;
+}
+
+
+#ulindex{
+    margin-right: 5vh;
+    margin-top: 2vh;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navnav{
+    background-image: url("https://i.imgur.com/AeFpY20.png");
+}
+
+#footfoot{
+    background-image: url("https://i.imgur.com/AeFpY20.png");
+}
+
+#ajustcard{
+    margin-top: 10%;
+}
+/****************** Modif sur la page Contact *********************/
+
+#sendcontact{
+    margin-top: 10px;
+}
+
+#aboutus{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#contactus{
+    margin-top: 100px;
+}
+
+#photoprofil{
+    border-radius: 10px;
+    margin-top: 60px;
+    max-width: 100%;
+    height: auto;
+}
+/* My CSS Patch Test (branche Seb, 15h43s) */
+
+
+/* Products CSS */
+.dropdown {
+	margin-top: 2em;
+}  
+
+.test{
+    margin-top: 100em;
+}
+
+#dropdownProduct {
+    margin-top: 5em;
+    background-color: hsla(15, 20%, 50%, 45%);
+    border-radius: 5em;
+    border: 2px solid limegreen;
+}
+
+#dropdownProduct h2 {
+	font-size: 2em;
+}
+#titrePageProducts{
+    padding-top: 2em;
+}
+
+.card-deck {
+	margin-top: 2em;
+}
+
+#cardProducts {
+	border: 5px solid hsl(15, 20%, 50%);
+	border-radius: 5px;
+}
+.card-img-overlay {
+	margin-left: 7em;
+}
+
+
+.lemmeCenter {
+	justify-content: center;
+	justify-items: center;
+	text-justify: center;
+}
+
+.marged-top {
+    margin-top: 110px;
+}
