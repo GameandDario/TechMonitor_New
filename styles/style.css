@@ -96,12 +96,12 @@ element.style {
 }
 #contact{
     margin-top: 10%;
-    margin-bottom: 10%;
-    
+    margin-bottom: 10%; 
 }
 #encadre{
     background-color: white;
     opacity:0.72 ;
+    padding: 20px;
 }
 #encadre:hover{
     opacity:1;
