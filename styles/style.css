@@ -42,6 +42,12 @@ element.style {
 
 /********************** Modif sur la page index *************/
 
+@media (hover: hover) { ... }
+
+#botomarge{
+    padding: 5%;
+
+}
 
 .searchnav{
     margin-left: 100px;
@@ -53,8 +59,7 @@ element.style {
 
 
 #ulindex{
-    margin-right: 5vh;
-    margin-top: 2vh;
+    margin-right: 2vh;
 }
 
 .footer-container {
@@ -71,7 +76,7 @@ element.style {
 }
 
 #ajustcard{
-    margin-top: 10%;
+    margin-top: 8%;
 }
 /****************** Modif sur la page Contact *********************/
 
@@ -146,11 +151,53 @@ element.style {
 
 
 .lemmeCenter {
-	justify-content: center;
-	justify-items: center;
-	text-justify: center;
+    display: flex;
+    max-width:100%;
+    width: auto;
+    align-items: center;
 }
 
 .marged-top {
     margin-top: 110px;
 }
+
+<<<<<<< HEAD
+/*-------------------- Media queries  --------------------------------*/
+
+.paddingsearch{
+    padding-top: 10px;
+}
+
+.writenav{
+    margin-top: 3px;
+}
+
+li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .navbar-collapse{
+    text-align: right;
+    }
+    }
+    
+
+    @media screen and (max-width: 1024px)
+    {
+        .buttonright{
+        float: right;
+        }
+        }
+       
+       
+        @media screen and (max-width: 1024px)
+{
+    .paddingsearch{
+    float: right;
+    }
+    }
+=======
+>>>>>>> c38065fd7cd8e558ddb0f938d4a4f28bcca048bf
