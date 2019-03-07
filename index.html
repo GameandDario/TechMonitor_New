@@ -23,50 +23,53 @@
         <nav class="navbar navbar-expand-lg navbar-dark text-light fixed-top" id="navnav">
             <div class="container-fluid">
                 <img src="https://image.flaticon.com/icons/svg/64/64172.svg" height="25" width="25">
-                <a class="navbar-brand" href="home.html"><h1>TechMonitor</h1></a>
+                <a class="navbar-brand" href="index.html">
+                    <h1>TechMonitor</h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto" id="ulindex">
                         <li class="nav-item">
-                            <a class="nav-link" href="home.html">
+                            <a class="nav-link" href="index.html">
                                 <p class="text-light">Home</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item writenav">
                             <a class="nav-link" href="articles.html">
-                                <p class="text-light">Blog Posts</p>
+                                <p class="text-light">Blog</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item writenav">
                             <a class="nav-link" href="aboutme.html">
                                 <p class="text-light">About me</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item writenav">
                             <a class="nav-link" href="contact.html#contact">
                                 <p class="text-light">Contact me</p>
                             </a>
                         </li>
-                    </ul>
-                    <div class>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </div>
-                    <div class>
+                        <li class="nav-item">
+                            <form class="form-inline pull-right my-2 my-lg-0 paddingsearch">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </li>
+                        <li class="nav-item paddingsearch">
                             <button class="btn btn-outline-success my-2 my-sm-0" type="button">Log in</button>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             </div>
         </nav>
     </header>
-<!-----------------------END HEADER---------------------->
+    <!-----------------------END HEADER---------------------->
 
-<!--------------------- carousel ------------------------->
+    <!--------------------- carousel ------------------------->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -111,7 +114,7 @@
     </div>
     </header>
 
-    <!--------------------- CARD HOME ------------------------->
+    <!--------------------- Jumbo ------------------------->
 
     <div class="jumbotron" id="jumbohome">
         <h1 class="display-4">Latest news and most viewed articles</h1>
@@ -120,64 +123,65 @@
     </div>
 
 
-    <!--------------------------- Text ---------------->
+    <!--------------------------- Card ---------------->
 
-    <div class="container-fluid" id="cardhome">
+    <div class="container-fluid" id="botomarge">
         <div class="row">
-            <div class="card-deck">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="http://www.touslesportails.com/wp-content/uploads/2017/03/1-19-1024x683-752x440.jpg"
-                                class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
+            <div class="col-12 col-lg-6">
+                <div class="row">
+                    <div class="col-12" id="ajustcard">
+                        <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Test</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.This is a wider
-                                    card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.This is a wider
-                                    card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="https://les-smartgrids.fr/wp-content/uploads/2018/04/appareilsconnectes_0.jpg"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card marged-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="https://les-smartgrids.fr/wp-content/uploads/2018/04/appareilsconnectes_0.jpg"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height action.</p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://www.megacitiz.com/uploads/media/product/0001/01/thumb_538_product_catalog.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
                     </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://www.megacitiz.com/uploads/media/product/0001/03/thumb_2362_product_catalog.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <!------------------------- footer ----------------------------------->
-
     <footer>
         <div class="p-3 mb-2 text-white" id="footfoot">
             <div class="container">
@@ -185,12 +189,13 @@
                     <div class="offset-2">
                     </div>
                     <div class="col-2">
-                        <P><a href="home.html" tag="home">Home</a></P>
+                        <P><a href="home.html" alt="home">Home</a></P>
                         <P><a href="articles.html">Blog</a></P>
                     </div>
                     <div class="col-2">
+                        <P><a href="contact.html#contactme">Contact</a></P>
                         <P><a href="aboutme.html">About me</a></P>
-                        <P><a href="contact.html#contactme">Contact me</a></P>
+
 
                     </div>
                     <div class="col-2">
@@ -204,7 +209,8 @@
                 </div>
                 <div class="row">
                     <div class="col-2">
-                        <div class="fa-2x"><i class="fab fa-github-alt"></i></div>
+                        <div class="fa-2x"><a href="https://github.com/TheRealBarenziah/TechMonitor_New"><i
+                                    class="fab fa-github-alt"></i></a></div>
                     </div>
                     <div class="col-2">
                         <div class="fa-2x"><a href="https://www.gitkraken.com/"><i class="fab fa-gitkraken"></i></a>
@@ -214,10 +220,12 @@
                         <div class="fa-2x"><i class="fab fa-font-awesome-flag"></i></div>
                     </div>
                     <div class="col-2">
-                        <div class="fa-2x"><i class="fab fa-twitter-square"></i></div>
+                        <div class="fa-2x"><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                        </div>
                     </div>
                     <div class="col-2">
-                        <div class="fa-2x"><i class="fab fa-facebook-square"></i></div>
+                        <div class="fa-2x"><a href="https://www.facebook.com/"><i
+                                    class="fab fa-facebook-square"></i></a></div>
                     </div>
                     <div class="col-2">
                         <div class="fa-2x"><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></div>
@@ -239,4 +247,5 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
