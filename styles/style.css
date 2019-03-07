@@ -7,7 +7,6 @@ a:hover {
 }
 
 /* Hover Responsive */
-    }
 a:focus {
     color: #60ff00 !important;
     }
@@ -240,11 +239,8 @@ li {
         float: right;
     }
     @media screen only (max-width (572px)
-    {
     .buttonav{
-    float: right;
-    }
-    }
+    float: right;45
 }
 /****************** Modif sur la page About me *********************/
 #aboutme {
