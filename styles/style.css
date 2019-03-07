@@ -6,24 +6,13 @@ a:hover {
     /* Hover Responsive */
 }
 
-<<<<<<< HEAD
 /* Hover Responsive */
-    }
 a:focus {
     color: #60ff00 !important;
     }
 a:active {
     color: #60ff00 !important;
     }
-=======
-a:focus {
-    color: #60ff00 !important;
-}
-
-a:active {
-    color: #60ff00 !important;
-}
->>>>>>> 9518a7633759291a4f204c5296bd2546e8ff13c1
 
 /******************** carousel ***************/
 
@@ -46,7 +35,7 @@ body {
     font-size: 3vh;
     margin: 0;
     padding: 0;
-    background-size: 100%
+    background-size: 100%;
 }
 
 element.style {
@@ -55,9 +44,7 @@ element.style {
 
 /********************** Modif sur la page index *************/
 
-#botomarge {
-    padding: 5%;
-}
+
 
 .searchnav {
     margin-left: 100px;
@@ -85,7 +72,7 @@ element.style {
 }
 
 #ajustcard {
-    margin-top: 8%;
+    margin-top:
 }
 
 /****************** Modif sur la page Contact *********************/
@@ -205,7 +192,6 @@ li {
 @media screen and (max-width: 1024px) {
     .buttonright {
         float: right;
-<<<<<<< HEAD
         }
         }
 
@@ -213,16 +199,8 @@ li {
     {
     .paddingsearch{
     float: right;
-=======
->>>>>>> 9518a7633759291a4f204c5296bd2546e8ff13c1
     }
 }
-
-@media screen and (max-width: 1024px) {
-    .paddingsearch {
-        float: right;
-    }
-<<<<<<< HEAD
 
     @media screen only (max-width (572px)
     {
@@ -230,8 +208,7 @@ li {
     float: right;
     }
     }
-=======
-}
+
 /****************** Modif sur la page About me *********************/
 #aboutme {
     margin-top: 10%;
@@ -246,4 +223,11 @@ li {
     margin-top: 2%;
     margin-left: 14px;
 }
->>>>>>> 9518a7633759291a4f204c5296bd2546e8ff13c1
+
+.longcard{
+    padding-top: 10%;
+}
+
+#botomarge{
+    margin-bottom: 50px;
+}
