@@ -98,22 +98,25 @@ element.style {
 
 
 /* Products CSS */
+
 .dropdown {
-	margin-top: 2em;
+    margin-top: 0;
+    margin-right: 2em;
 }  
 
-.test{
-    margin-top: 100em;
-}
 
 #dropdownProduct {
-    margin-top: 5em;
+    margin-top: 6em;
     background-color: hsla(15, 20%, 50%, 45%);
     border-radius: 5em;
     border: 2px solid limegreen;
 }
 
-#dropdownProduct h2 {
+.containerTitle {
+    margin-top: 2em;
+}
+
+#dropdownProduct h1 {
 	font-size: 2em;
 }
 #titrePageProducts{
@@ -121,10 +124,10 @@ element.style {
 }
 
 .card-deck {
-	margin-top: 2em;
+	margin-top: 10em;
 }
 
-#cardProducts {
+.cardProduct {
 	border: 5px solid hsl(15, 20%, 50%);
 	border-radius: 5px;
 }
@@ -132,13 +135,3 @@ element.style {
 	margin-left: 7em;
 }
 
-
-.lemmeCenter {
-	justify-content: center;
-	justify-items: center;
-	text-justify: center;
-}
-
-.marged-top {
-    margin-top: 110px;
-}
