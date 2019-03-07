@@ -1,18 +1,21 @@
 /* Hover on links */
+
 a:hover {
     color: #60ff00 !important;
-/* ça marche pas sur le menu, à voir doc bootstrap (on verra demain) */
+    /* ça marche pas sur le menu, à voir doc bootstrap (on verra demain) */
+    /* Hover Responsive */
+}
 
-/* Hover Responsive */
-  }
-  a:focus {
+a:focus {
     color: #60ff00 !important;
-  }
-  a:active {
+}
+
+a:active {
     color: #60ff00 !important;
-  }
+}
 
 /******************** carousel ***************/
+
 .carousel-item {
     height: 65vh;
     min-height: 350px;
@@ -23,42 +26,37 @@ a:hover {
     background-size: cover;
 }
 
-body{
-    background-image: url("https://images.wallpaperscraft.com/image/code_binary_code_glow_136085_2560x1080.jpg");
+body {
+    background-image: url("https://i.ibb.co/j5x1jLT/Abstract-Background-B-W.jpg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: none;
     font-family: 'Srisakdi', cursive;
     font-size: 3vh;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    background-size: 100%
 }
 
 element.style {
     width: 70vh;
 }
 
-
-
 /********************** Modif sur la page index *************/
 
-@media (hover: hover) { ... }
-
-#botomarge{
+#botomarge {
     padding: 5%;
-
 }
 
-.searchnav{
+.searchnav {
     margin-left: 100px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     margin-top: 4px;
 }
 
-
-#ulindex{
+#ulindex {
     margin-right: 2vh;
 }
 
@@ -67,92 +65,103 @@ element.style {
     justify-content: space-between;
 }
 
-#navnav{
-    background-image: url("https://i.imgur.com/AeFpY20.png");
+#navnav {
+    background-image: url("https://i.ibb.co/j5x1jLT/Abstract-Background-B-W.jpg");
 }
 
-#footfoot{
-    background-image: url("https://i.imgur.com/AeFpY20.png");
+#footfoot {
+    background-image: url("https://i.ibb.co/j5x1jLT/Abstract-Background-B-W.jpg");
 }
 
-#ajustcard{
+#ajustcard {
     margin-top: 8%;
 }
+
 /****************** Modif sur la page Contact *********************/
 
-#sendcontact{
+#sendcontact {
     margin-top: 10px;
 }
 
-#aboutus{
+#aboutus {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-#contactus{
+#contactus {
     margin-top: 100px;
 }
 
-#photoprofil{
+#photoprofil {
     border-radius: 10px;
     margin-top: 60px;
     max-width: 100%;
     height: auto;
 }
-#contact{
+
+#contact {
     margin-top: 10%;
-    margin-bottom: 10%; 
+    margin-bottom: 10%;
 }
-#encadre{
+
+#encadre {
     background-color: white;
-    opacity:0.72 ;
+    opacity: 0.72;
     padding: 20px;
 }
-#encadre:hover{
-    opacity:1;
+
+#encadre:hover {
+    opacity: 1;
 }
 
-
-
 /* Products CSS */
-.dropdown {
-	margin-top: 2em;
-}  
 
-.test{
+.dropdown {
+    margin-top: 2em;
+}
+
+.test {
     margin-top: 100em;
 }
 
 #dropdownProduct {
-    margin-top: 5em;
+    margin-top: 6em;
     background-color: hsla(15, 20%, 50%, 45%);
     border-radius: 5em;
     border: 2px solid limegreen;
 }
 
-#dropdownProduct h2 {
-	font-size: 2em;
+.containerTitle {
+    margin-top: 2em;
 }
-#titrePageProducts{
+
+#dropdownProduct h1 {
+    font-size: 2em;
+}
+#dropdownProduct h2 {
+    font-size: 2em;
+}
+
+#titrePageProducts {
     padding-top: 2em;
 }
 
 .card-deck {
-	margin-top: 2em;
+	margin-top: 10em;
 }
 
-#cardProducts {
+.cardProduct {
 	border: 5px solid hsl(15, 20%, 50%);
 	border-radius: 5px;
 }
-.card-img-overlay {
-	margin-left: 7em;
-}
 
+.card-img-overlay {
+    margin-left: 7em;
+}
 
 .lemmeCenter {
     display: flex;
-    max-width:100%;
+    max-width: 100%;
     width: auto;
     align-items: center;
 }
@@ -161,43 +170,49 @@ element.style {
     margin-top: 110px;
 }
 
-<<<<<<< HEAD
 /*-------------------- Media queries  --------------------------------*/
 
-.paddingsearch{
+.paddingsearch {
     padding-top: 10px;
 }
 
-.writenav{
+.writenav {
     margin-top: 3px;
 }
 
-li{
+li {
     padding-right: 10px;
     padding-left: 10px;
 }
 
-@media screen and (max-width: 1024px)
-{
-    .navbar-collapse{
-    text-align: right;
+@media screen and (max-width: 1024px) {
+    .navbar-collapse {
+        text-align: right;
     }
-    }
-    
+}
 
-    @media screen and (max-width: 1024px)
-    {
-        .buttonright{
+@media screen and (max-width: 1024px) {
+    .buttonright {
         float: right;
-        }
-        }
-       
-       
-        @media screen and (max-width: 1024px)
-{
-    .paddingsearch{
-    float: right;
     }
+}
+
+@media screen and (max-width: 1024px) {
+    .paddingsearch {
+        float: right;
     }
-=======
->>>>>>> c38065fd7cd8e558ddb0f938d4a4f28bcca048bf
+}
+/****************** Modif sur la page About me *********************/
+#aboutme {
+    margin-top: 10%;
+    font-size: 400%;
+}
+.buttonctc {
+    padding: 1%;
+    margin-bottom: 2%;
+    margin-left: 14px;
+}
+.textcard {
+    margin-top: 2%;
+    margin-left: 14px;
+}
