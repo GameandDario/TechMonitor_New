@@ -146,11 +146,13 @@ element.style {
 
 
 .lemmeCenter {
-	justify-content: center;
-	justify-items: center;
-	text-justify: center;
+    display: flex;
+    max-width:100%;
+    width: auto;
+    align-items: center;
 }
 
 .marged-top {
     margin-top: 110px;
 }
+
