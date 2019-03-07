@@ -6,6 +6,16 @@ a:hover {
     /* Hover Responsive */
 }
 
+<<<<<<< HEAD
+/* Hover Responsive */
+    }
+a:focus {
+    color: #60ff00 !important;
+    }
+a:active {
+    color: #60ff00 !important;
+    }
+=======
 a:focus {
     color: #60ff00 !important;
 }
@@ -13,6 +23,7 @@ a:focus {
 a:active {
     color: #60ff00 !important;
 }
+>>>>>>> 9518a7633759291a4f204c5296bd2546e8ff13c1
 
 /******************** carousel ***************/
 
@@ -194,6 +205,16 @@ li {
 @media screen and (max-width: 1024px) {
     .buttonright {
         float: right;
+<<<<<<< HEAD
+        }
+        }
+
+        @media screen and (max-width: 1024px)
+    {
+    .paddingsearch{
+    float: right;
+=======
+>>>>>>> 9518a7633759291a4f204c5296bd2546e8ff13c1
     }
 }
 
@@ -201,6 +222,15 @@ li {
     .paddingsearch {
         float: right;
     }
+<<<<<<< HEAD
+
+    @media screen only (max-width (572px)
+    {
+    .buttonav{
+    float: right;
+    }
+    }
+=======
 }
 /****************** Modif sur la page About me *********************/
 #aboutme {
@@ -216,3 +246,4 @@ li {
     margin-top: 2%;
     margin-left: 14px;
 }
+>>>>>>> 9518a7633759291a4f204c5296bd2546e8ff13c1
