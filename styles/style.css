@@ -6,6 +6,14 @@ a:hover {
     /* Hover Responsive */
 }
 
+/* Hover Responsive */
+    }
+a:focus {
+    color: #60ff00 !important;
+    }
+a:active {
+    color: #60ff00 !important;
+    }
 a:focus {
     color: #60ff00 !important;
 }
@@ -66,10 +74,6 @@ element.style {
 
 /********************** Modif sur la page index *************/
 
-@media (hover: hover) {
-    ...
-}
-
 #botomarge {
     padding: 5%;
 }
@@ -93,22 +97,13 @@ element.style {
 
 #navnav {
     background-color: rgba(95, 90, 90, 0.726);
-
-
     font-family: 'Fjalla One', sans-serif;
-
-
 }
 
 #footfoot {
     background-color: rgba(95, 90, 90, 0.658);;
-
-
     font-family: 'Fjalla One', sans-serif;
-
-
 }
-
 #ajustcard {
     margin-top: 8%;
 }
@@ -161,12 +156,19 @@ element.style {
 }
 
 #dropdownProduct {
-    margin-top: 5em;
+    margin-top: 6em;
     background-color: hsla(15, 20%, 50%, 45%);
     border-radius: 5em;
     border: 2px solid limegreen;
 }
 
+.containerTitle {
+    margin-top: 2em;
+}
+
+#dropdownProduct h1 {
+    font-size: 2em;
+}
 #dropdownProduct h2 {
     font-size: 2em;
 }
@@ -176,12 +178,12 @@ element.style {
 }
 
 .card-deck {
-    margin-top: 2em;
+	margin-top: 10em;
 }
 
-#cardProducts {
-    border: 5px solid hsl(15, 20%, 50%);
-    border-radius: 5px;
+.cardProduct {
+	border: 5px solid hsl(15, 20%, 50%);
+	border-radius: 5px;
 }
 
 .card-img-overlay {
@@ -223,12 +225,25 @@ li {
 @media screen and (max-width: 1024px) {
     .buttonright {
         float: right;
+        }
+        }
+
+        @media screen and (max-width: 1024px)
+    {
+    .paddingsearch{
+    float: right;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .paddingsearch {
         float: right;
+    }
+    @media screen only (max-width (572px)
+    {
+    .buttonav{
+    float: right;
+    }
     }
 }
 /****************** Modif sur la page About me *********************/
