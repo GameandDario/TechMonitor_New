@@ -7,12 +7,9 @@ a:hover {
 }
 
 /* Hover Responsive */
-a:focus {
-    color: #60ff00 !important;
-    }
-a:active {
-    color: #60ff00 !important;
-    }
+
+/* Hover Responsive */
+
 a:focus {
     color: #60ff00 !important;
 }
@@ -20,25 +17,27 @@ a:focus {
 a:active {
     color: #60ff00 !important;
 }
-h1{
 
-    font-family: 'Fjalla One', sans-serif;
-
+a:focus {
+    color: #60ff00 !important;
 }
-h2{
 
-
-    font-family: 'Fjalla One', sans-serif;
-
-
+a:active {
+    color: #60ff00 !important;
 }
-h3{
 
-
+h1 {
     font-family: 'Fjalla One', sans-serif;
-
-
 }
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
 /******************** carousel ***************/
 
 .carousel-item {
@@ -56,11 +55,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: none;
-
-
     font-family: 'Manuale', serif;
-
-
     font-size: 3vh;
     margin: 0;
     padding: 0;
@@ -100,9 +95,11 @@ element.style {
 }
 
 #footfoot {
-    background-color: rgba(95, 90, 90, 0.658);;
+    background-color: rgba(95, 90, 90, 0.658);
+    ;
     font-family: 'Fjalla One', sans-serif;
 }
+
 #ajustcard {
     margin-top: 8%;
 }
@@ -168,6 +165,7 @@ element.style {
 #dropdownProduct h1 {
     font-size: 2em;
 }
+
 #dropdownProduct h2 {
     font-size: 2em;
 }
@@ -177,12 +175,12 @@ element.style {
 }
 
 .card-deck {
-	margin-top: 10em;
+    margin-top: 10em;
 }
 
 .cardProduct {
-	border: 5px solid hsl(15, 20%, 50%);
-	border-radius: 5px;
+    border: 5px solid hsl(15, 20%, 50%);
+    border-radius: 5px;
 }
 
 .card-img-overlay {
@@ -224,13 +222,6 @@ li {
 @media screen and (max-width: 1024px) {
     .buttonright {
         float: right;
-        }
-        }
-
-        @media screen and (max-width: 1024px)
-    {
-    .paddingsearch{
-    float: right;
     }
 }
 
@@ -238,47 +229,43 @@ li {
     .paddingsearch {
         float: right;
     }
-    @media screen only (max-width (572px)
-    .buttonav{
-    float: right;45
 }
-/****************** Modif sur la page About me *********************/
-#aboutme {
-    margin-top: 10%;
-    font-size: 400%;
 
-
-    font-family: 'Fjalla One', sans-serif;
-
-
+@media screen and (max-width: 1024px) {
+    .paddingsearch {
+        float: right;
+    }
 }
-.buttonctc {
-    padding: 1%;
-    margin-bottom: 2%;
-    margin-left: 14px;
+
+@media screen and (max-width: 572px) {
+    .buttonav {
+        float: right;
+    }
 }
-.textcard {
-    margin-top: 2%;
-    margin-left: 14px;
-}
-/****************** Modif sur la page Contact me*********************/
-#contactme {
-    margin-top: 10%;
-    font-size: 400%;
-
-    
-
-    font-family: 'Fjalla One', sans-serif;
-
-
-}
-/****************** Modif sur la page BLOG*********************/
-#blogt {
-    margin-top: 10%;
-    font-size: 400%;
-
-    font-family: 'Fjalla One', sans-serif;
-
-
-
-}
+    /****************** Modif sur la page About me *********************/
+    #aboutme {
+        margin-top: 10%;
+        font-size: 400%;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    .buttonctc {
+        padding: 1%;
+        margin-bottom: 2%;
+        margin-left: 14px;
+    }
+    .textcard {
+        margin-top: 2%;
+        margin-left: 14px;
+    }
+    /****************** Modif sur la page Contact me*********************/
+    #contactme {
+        margin-top: 10%;
+        font-size: 400%;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    /****************** Modif sur la page BLOG*********************/
+    #blogt {
+        margin-top: 10%;
+        font-size: 400%;
+        font-family: 'Fjalla One', sans-serif;
+    }
