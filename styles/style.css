@@ -4,13 +4,13 @@ a:hover {
 /* ça marche pas sur le menu, à voir doc bootstrap (on verra demain) */
 
 /* Hover Responsive */
-  }
-  a:focus {
+    }
+a:focus {
     color: #60ff00 !important;
-  }
-  a:active {
+    }
+a:active {
     color: #60ff00 !important;
-  }
+    }
 
 /******************** carousel ***************/
 .carousel-item {
@@ -161,7 +161,6 @@ element.style {
     margin-top: 110px;
 }
 
-<<<<<<< HEAD
 /*-------------------- Media queries  --------------------------------*/
 
 .paddingsearch{
@@ -191,13 +190,17 @@ li{
         float: right;
         }
         }
-       
-       
+
         @media screen and (max-width: 1024px)
-{
+    {
     .paddingsearch{
     float: right;
     }
     }
-=======
->>>>>>> c38065fd7cd8e558ddb0f938d4a4f28bcca048bf
+
+    @media screen only (max-width (572px)
+    {
+    .buttonav{
+    float: right;
+    }
+    }
