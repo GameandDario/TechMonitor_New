@@ -99,6 +99,18 @@ element.style {
     max-width: 100%;
     height: auto;
 }
+#contact{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+#encadre{
+    background-color: white;
+    opacity:0.72 ;
+}
+#encadre:hover{
+    opacity:1;
+}
 
 
 
@@ -139,15 +151,17 @@ element.style {
 
 
 .lemmeCenter {
-	justify-content: center;
-	justify-items: center;
-	text-justify: center;
+    display: flex;
+    max-width:100%;
+    width: auto;
+    align-items: center;
 }
 
 .marged-top {
     margin-top: 110px;
 }
 
+<<<<<<< HEAD
 /*-------------------- Media queries  --------------------------------*/
 
 .paddingsearch{
@@ -185,3 +199,5 @@ li{
     float: right;
     }
     }
+=======
+>>>>>>> c38065fd7cd8e558ddb0f938d4a4f28bcca048bf
