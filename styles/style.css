@@ -38,6 +38,7 @@ h3 {
     font-family: 'Fjalla One', sans-serif;
 }
 
+
 /******************** carousel ***************/
 
 .carousel-item {
@@ -59,19 +60,13 @@ body {
     font-size: 3vh;
     margin: 0;
     padding: 0;
-    background-size: 100%
+    background-size: 100%;
 }
 
 element.style {
     width: 70vh;
 }
-
 /********************** Modif sur la page index *************/
-
-#botomarge {
-    padding: 5%;
-}
-
 .searchnav {
     margin-left: 100px;
 }
@@ -88,7 +83,6 @@ element.style {
     display: flex;
     justify-content: space-between;
 }
-
 #navnav {
     background-color: rgba(95, 90, 90, 0.726);
     font-family: 'Fjalla One', sans-serif;
@@ -102,6 +96,14 @@ element.style {
 
 #ajustcard {
     margin-top: 8%;
+        background-color: rgba(95, 90, 90, 0.726);
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+
+#footfoot {
+    background-image: url("https://i.ibb.co/j5x1jLT/Abstract-Background-B-W.jpg");
+    font-family: 'Fjalla One', sans-serif;
 }
 
 /****************** Modif sur la page Contact *********************/
@@ -187,12 +189,6 @@ element.style {
     margin-left: 7em;
 }
 
-.lemmeCenter {
-    display: flex;
-    max-width: 100%;
-    width: auto;
-    align-items: center;
-}
 
 .marged-top {
     margin-top: 110px;
@@ -231,10 +227,10 @@ li {
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .paddingsearch {
-        float: right;
-    }
+/****************** Modif sur la page About me *********************/
+#aboutme {
+    margin-top: 10%;
+    font-size: 400%;
 }
 
 @media screen and (max-width: 572px) {
@@ -269,3 +265,11 @@ li {
         font-size: 400%;
         font-family: 'Fjalla One', sans-serif;
     }
+
+.longcard{
+    padding-top: 10%;
+}
+
+#botomarge{
+    margin-bottom: 50px;
+} 

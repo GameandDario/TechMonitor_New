@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,9 +16,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Manuale" rel="stylesheet">
 
-    <title>Tech-Monitor</title>
+    <title>TechMonitor</title>
 </head>
-
 
 <body>
     <!----------------------------NAVBAR------------------------>
@@ -28,6 +27,7 @@
                 <img src="https://image.flaticon.com/icons/svg/64/64172.svg" height="25" width="25">
                 <a class="navbar-brand" href="index.html" title="Home">
                     <h1>TechMonitor</h1>
+                    <!-- when Banner: <h1 style="display:none  OR  opacity:0;>" -->
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,91 +72,99 @@
             </div>
         </nav>
     </header>
-    <!-----------------------END HEADER---------------------->
-
-    <!--------------------- carousel ------------------------->
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <!-- Slide One -->
-            <div class="carousel-item active"
-                style="background-image: url('https://images6.alphacoders.com/648/648552.jpg')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3 class="display-4">First Slide</h3>
-                    <p class="lead">Circuit dashboard</p>
-                </div>
-            </div>
-            <!-- Slide Two -->
-            <div class="carousel-item"
-                style="background-image: url('file:///home/wilder/Documents/projet1/images/slider/Smart%20Watch%20Arm%20-%202500x1838.jpg')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3 class="display-4">Second Slide</h3>
-                    <p class="lead">Connected Watch</p>
-                </div>
-            </div>
-            <!-- Slide Three -->
-            <div class="carousel-item"
-                style="background-image: url('file:///home/wilder/T%C3%A9l%C3%A9chargements/aleks-dorohovich-1089460-unsplash.jpg')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3 class="display-4">Third Slide</h3>
-                    <p class="lead">Nitendo Switch</p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
     </header>
-
-    <!--------------------- Jumbo ------------------------->
-
-    <div class="jumbotron" id="jumbohome">
-        <h1 class="display-4">Latest news and most viewed articles</h1>
-        <p class="lead">Welcome to Tech-monitor Here is the list of the latest articles in dates as well as the most
-            consulted to keep you informed of major trends.</p>
-    </div>
-
-
-    <!--------------------------- Card ---------------->
-
-    <div class="container-fluid">
-        <div class="row" id="botomarge">
-            <div class="col-6" id="ajustcard">
-                <div class="card">
-                    <img class="card-img-top"
-                        src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Samsung_Gear_3_Frontier_%2832550534510%29.jpg"
-                        alt="Card image cap">
+    <!-----------------------Fin Header---------------------->
+    <!----------------------  Section Products  -------------------------------->
+    <div class="container" id="blogt">Blog</div>
+    <section>
+        <hr>
+        <div class="container" id="dropdownProduct">
+            <div class="dropdown row justify-content-end">
+                <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sorted by
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Price</a>
+                    <a class="dropdown-item" href="#">Fame</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2>Products</h2>
+            </div>
+            <div class="card-deck row justify-content-between">
+                <div class="card col-5" id="cardProducts">
+                    <img src="https://cdn.pixabay.com/photo/2015/02/11/04/29/arduino-631977_960_720.jpg"
+                        class="card-img-top jumbotron" alt="card-img-top">
+                    <!--Image-->
                     <div class="card-body">
-                        <h2 class="card-title">L'heure au poignet mais pas "QUE"??</h2>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <!--Name + description-->
+                        <h3 class="card-title font-weight-bold">Do It Yourself</h3>
+                        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-footer">
+                            <!--Evaluation + price-->
+                            <div class="row justify-content-end">
+                                <button type="button" class="btn btn-dark">Read more...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-5" id="cardProducts">
+                    <img src="https://cdn.pixabay.com/photo/2015/02/11/04/29/arduino-631977_960_720.jpg"
+                        class="card-img-top jumbotron" alt="card-img-top">
+                    <!--Image-->
+                    <div class="card-body">
+                        <!--Name + description-->
+                        <h3 class="card-title font-weight-bold">Do It Yourself</h3>
+                        <p class="card-text text-muted">Some quick example text to build on the card title and make up  the bulk of the card's content.</p>
+                        <div class="card-footer">
+                            <!--Evaluation + price-->
+                            <div class="row justify-content-end">
+                                <button type="button" class="btn btn-dark">Read more...</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6" id="ajustcard">
-                <div class="card">
-                    <img class="card-img-top"
-                        src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Samsung_Gear_3_Frontier_%2832550534510%29.jpg"
-                        alt="Card image cap">
+            <div class="card-deck row justify-content-between">
+                <div class="card col-5" id="cardProducts">
+                    <img src="https://cdn.pixabay.com/photo/2015/02/11/04/29/arduino-631977_960_720.jpg"
+                        class="card-img-top jumbotron" alt="card-img-top">
+                    <!--Image-->
                     <div class="card-body">
-                        <h2 class="card-title">L'heure au poignet mais pas "QUE"??</h2>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <!--Name + description-->
+                        <h3 class="card-title font-weight-bold">Do It Yourself</h3>
+                        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-footer">
+                            <!--Evaluation + price-->
+                            <div class="row justify-content-end">
+                                <button type="button" class="btn btn-dark">Read more...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-5" id="cardProducts">
+                    <img src="https://cdn.pixabay.com/photo/2015/02/11/04/29/arduino-631977_960_720.jpg"
+                        class="card-img-top jumbotron" alt="card-img-top">
+                    <!--Image-->
+                    <div class="card-body">
+                        <!--Name + description-->
+                        <h3 class="card-title font-weight-bold">Do It Yourself</h3>
+                        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-footer">
+                            <!--Evaluation + price-->
+                            <div class="row justify-content-end">
+                                <button type="button" class="btn btn-dark">Read more...</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!------------------------- footer ----------------------------------->
+    </section>
+    <!------------------------------------------ FOOTER -->
     <footer>
         <div class="p-3 mb-2 text-white" id="footfoot">
             <div class="container">
@@ -172,10 +180,7 @@
                         <P><a href="aboutme.html" alt="aboutme" title="About me">About me</a></P>
                     </div>
                     <div class="col-2">
-                       <!--- <P><a href="https://en.wikipedia.org/wiki/FAQ" alt="FAQ" title="FAQ">FAQ</a></P>  avant --->
-                       <!-- peut-être: -->
-                       <P><a href="blogindex.html" alt="Blog Index"
-                        title="Blog index">Blog Index</a></P>
+                        <P><a href="https://en.wikipedia.org/wiki/FAQ" alt="FAQ" title="FAQ">FAQ</a></P>
                         <P><a href="http://www.techmonitor.net/tm/index.php?title=Disclaimer" alt="Disclaimer"
                                 title="Legal Mentions">Legal mentions</a></P>
                     </div>
@@ -217,17 +222,16 @@
         </div>
     </footer>
 
-    <!---------------------------------------------------- Optional JavaScript -------------------------------------->
-    <!---------------------------------- jQuery first, then Popper.js, then Bootstrap JS ------------------------------->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+<!------------------------- fin Footer ------------------------->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
