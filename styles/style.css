@@ -71,7 +71,7 @@ element.style {
 .searchnav {
     margin-left: 100px;
 }
-
+blogt
 .navbar-toggler {
     margin-top: 4px;
 }
@@ -155,10 +155,10 @@ element.style {
 }
 
 #dropdownProduct {
-    margin-top: 6em;
-    background-color: hsla(15, 20%, 50%, 45%);
-    border-radius: 5em;
-    border: 2px solid limegreen;
+    margin-top: 10%;
+}
+.vcenter {
+    margin-top: 6%;
 }
 
 .containerTitle {
@@ -178,7 +178,8 @@ element.style {
 }
 
 .card-deck {
-    margin-top: 10em;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .cardProduct {
@@ -258,10 +259,10 @@ li {
         font-family: 'Fjalla One', sans-serif;
     }
     /****************** Modif sur la page BLOG*********************/
-    #blogt {
-        margin-top: 10%;
-        font-family: 'Fjalla One', sans-serif;
-    }
+#blogt {
+    font-size: 400%;
+    font-family: 'Fjalla One', sans-serif;
+}
 
 .longcard{
     padding-top: 10%;
