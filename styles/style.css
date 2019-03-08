@@ -28,6 +28,7 @@ a:active {
 
 h1 {
     font-family: 'Fjalla One', sans-serif;
+    font-size: 400%
 }
 
 h2 {
@@ -89,22 +90,16 @@ element.style {
 }
 
 #footfoot {
-    background-color: rgba(95, 90, 90, 0.658);
+    background-color: rgba(95, 90, 90, 0.788);
     ;
     font-family: 'Fjalla One', sans-serif;
 }
 
 #ajustcard {
     margin-top: 8%;
-        background-color: rgba(95, 90, 90, 0.726);
         font-family: 'Fjalla One', sans-serif;
     }
 
-
-#footfoot {
-    background-image: url("https://i.ibb.co/j5x1jLT/Abstract-Background-B-W.jpg");
-    font-family: 'Fjalla One', sans-serif;
-}
 
 /****************** Modif sur la page Contact *********************/
 
@@ -119,6 +114,7 @@ element.style {
 
 #contactus {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #photoprofil {
@@ -230,7 +226,6 @@ li {
 /****************** Modif sur la page About me *********************/
 #aboutme {
     margin-top: 10%;
-    font-size: 400%;
 }
 
 @media screen and (max-width: 572px) {
@@ -241,7 +236,6 @@ li {
     /****************** Modif sur la page About me *********************/
     #aboutme {
         margin-top: 10%;
-        font-size: 400%;
         font-family: 'Fjalla One', sans-serif;
     }
     .buttonctc {
@@ -256,13 +250,11 @@ li {
     /****************** Modif sur la page Contact me*********************/
     #contactme {
         margin-top: 10%;
-        font-size: 400%;
         font-family: 'Fjalla One', sans-serif;
     }
     /****************** Modif sur la page BLOG*********************/
     #blogt {
         margin-top: 10%;
-        font-size: 400%;
         font-family: 'Fjalla One', sans-serif;
     }
 
@@ -273,3 +265,26 @@ li {
 #botomarge{
     margin-bottom: 50px;
 } 
+
+h5{
+    color: #E87E77;
+    font-weight: bold;
+    text-decoration:  underline;
+}
+
+#signuser{
+    text-align: right;
+    margin-right: 30px;
+}
+
+#stevej{
+    color:#7DCB85;
+}
+
+a{
+    color: white;
+}
+
+#jumbohome{
+    text-align: center;
+}
