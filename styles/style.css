@@ -28,6 +28,7 @@ a:active {
 
 h1 {
     font-family: 'Fjalla One', sans-serif;
+    font-size: 400%
 }
 
 h2 {
@@ -119,6 +120,7 @@ element.style {
 
 #contactus {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #photoprofil {
@@ -230,7 +232,6 @@ li {
 /****************** Modif sur la page About me *********************/
 #aboutme {
     margin-top: 10%;
-    font-size: 400%;
 }
 
 @media screen and (max-width: 572px) {
@@ -241,7 +242,6 @@ li {
     /****************** Modif sur la page About me *********************/
     #aboutme {
         margin-top: 10%;
-        font-size: 400%;
         font-family: 'Fjalla One', sans-serif;
     }
     .buttonctc {
@@ -256,13 +256,11 @@ li {
     /****************** Modif sur la page Contact me*********************/
     #contactme {
         margin-top: 10%;
-        font-size: 400%;
         font-family: 'Fjalla One', sans-serif;
     }
     /****************** Modif sur la page BLOG*********************/
     #blogt {
         margin-top: 10%;
-        font-size: 400%;
         font-family: 'Fjalla One', sans-serif;
     }
 
