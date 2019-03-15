@@ -64,7 +64,7 @@
                         </li>
                         <li class="nav-item paddingsearch">
                             <button class="btn btn-outline-success my-2 my-sm-0" type="button" alt="login"
-                                title="Log in">Log in</button>
+                                title="Log in" id="loginBtn" data-target="#login">Log in</button>
                         </li>
                     </ul>
                 </div>
@@ -124,9 +124,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    
-
-</body>
+    <script src="modal.js"></script>
 <!------------------------------------------ FOOTER -->
 <footer>
     <div class="p-3 mb-2 text-white" id="footfoot">
@@ -186,7 +184,38 @@
     <script src="seb.js">defer</script>
 
 </footer>
-
+<div class="modals">
+    <!-- The Modal -->
+    <div class="modal fade" id="login">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">Login</h4>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body ctn-log container-fluid">
+                    <form action="/action_page.php row" method="get">
+                        <span class="col-12">Login:</span> <input type="text" name="login" class="col-12"><br>
+                        <span class="col-12">Password:</span> <input type="password" name="pwd" class="col-12"><br>
+                        <button type="button" class="btn btn-dark" class="col-1 offset-11">Submit</button>
+                    </form> 
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 
 
 </html>
