@@ -13,4 +13,8 @@ $(document).ready(function(){
     $("#article4Btn").click(function(){
         $("#article4").modal();
     });
+    $("#loginBtn").click(function(){
+        $("#login").modal();
+    });
+
 });
