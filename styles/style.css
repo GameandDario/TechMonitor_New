@@ -293,7 +293,6 @@ a{
     margin-top: 10px;
 }
 
-
 #hiddendiv{
     text-align: center;
     display: none;
@@ -352,4 +351,3 @@ h2 {
         animation: fadeOut 2s ease;
         animation-fill-mode: forwards;
 }
-
