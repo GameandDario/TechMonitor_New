@@ -304,12 +304,11 @@ a{
 }
 
 .clip-text {
-    color: red;
- -webkit-text-fill-color: transparent;
- background: -webkit-linear-gradient(transparent, transparent),
-             url(http://fantazia.f.a.pic.centerblog.net/130802093429141712.gif) repeat;
-         -webkit-background-clip: text;
-    color: transparent;
+    background: url(http://fantazia.f.a.pic.centerblog.net/130802093429141712.gif);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent; // set to transparent, otherwise won't see the background
     width: 300px;
     height: 100px;
     box-sizing: border-box;
