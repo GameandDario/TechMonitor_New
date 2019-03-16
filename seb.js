@@ -1,7 +1,5 @@
 const getButton = document.getElementById('sendcontact')
 const doStuff = document.getElementById('letMeDoStuff')
-/// meh : const getTextAreas = document.getElementsByClassName('form-control')
-
 getButton.addEventListener('click', function() {
     if(this.style.backgroundColor === 'pink') {
       this.style.backgroundColor = '';
@@ -14,7 +12,6 @@ getButton.addEventListener('click', function() {
       document.getElementById('davidDiv').style.display = "none";
     }      
   });
-
 ///// Main Text Area Color  /////
 const setbg = (color) =>
 {

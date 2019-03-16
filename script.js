@@ -1,5 +1,3 @@
-
-
 function masquer_div(hiddendiv)
 {
   if (document.querySelector('#hiddendiv').style.display == 'none') {
@@ -8,4 +6,4 @@ function masquer_div(hiddendiv)
   else {
        document.querySelector('#hiddendiv').style.display = 'none';
   }
-}
+} 
