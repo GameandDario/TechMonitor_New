@@ -348,3 +348,22 @@ h2 {
         animation: fadeOut 2s infinite;
         animation-fill-mode: forwards;
 }
+
+<<<<<<< HEAD
+
+.fa {
+    font-size: 150% !important; 
+    cursor: pointer;
+    user-select: none;
+    color: #2689da;
+  }
+  
+  .fa:hover {
+    color: darkblue;
+  }
+
+=======
+.hidden {
+    display: none;
+}
+>>>>>>> 5bef9c40cbcc4a9640b6dde8f884ed6b22103be1
