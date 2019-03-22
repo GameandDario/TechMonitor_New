@@ -9,3 +9,6 @@ function masquer_div(hiddendiv)
        document.querySelector('#hiddendiv').style.display = 'none';
   }
 }
+
+let blabla = 2
+console.log(blabla)
