@@ -11,6 +11,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Manuale" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
@@ -20,6 +21,7 @@
 </head>
 
 <body>
+
     <!----------------------------NAVBAR------------------------>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark text-light fixed-top" id="navnav">
@@ -70,6 +72,7 @@
             </div>
         </nav>
     </header>
+
     <!-----------------------Fin Header---------------------->
     <div class="container">
         <div class="container" id="aboutus">
@@ -80,34 +83,69 @@
             <div class="row no-gutters">
                 <div class="col-9">
                     <div class="card-body">
-                        <p class="card-text textcard">I'm a 35-year-old secretary at a law firm who enjoys Rubix cube, meditation and stealing candy from babies.<br> I am entertaining and inspiring, but can also be very cowardly and a bit rude. I am an American who defines himself as straight. I've finished school and left academia.<br>Totally obsessed with Star Wars, I grew up in a working class neighbourhood staring at the sky. I was raised by my mother, my father having left when I was young. I choose write on blog for sharing my passion for new technology.</p>
+                        <p class="card-text textcard">I'm a 35-year-old secretary at a law firm who enjoys Rubix cube,
+                            meditation and stealing candy from babies.<br> I am entertaining and inspiring, but can also
+                            be very cowardly and a bit rude. I am an American who defines himself as straight. I've
+                            finished school and left academia.<br>Totally obsessed with Star Wars, I grew up in a
+                            working class neighbourhood staring at the sky. I was raised by my mother, my father having
+                            left when I was young. I choose write on blog for sharing my passion for new technology.</p>
                     </div>
                 </div>
                 <div class="col-3">
-                    <a href="https://placeholder.com"><img
-                            src=https://images.unsplash.com/photo-1530649298728-6dbb4c3f5bc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60
-                            width="800" height="300" alt="placeholder.com" id="photoprofil"></a>
+                    <a href="https://placeholder.com">
+                        <img src=https://images.unsplash.com/photo-1530649298728-6dbb4c3f5bc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60
+                            width="800" height="300" alt="placeholder.com" id="photoprofil" />
+                    </a>
                 </div>
                 <div class="container">
-                    <a href="#" class="btn btn-primary buttonctc">See my <i class="fab fa-linkedin-in    "></i></a>
+                    <a href="#" class="btn btn-primary buttonctc" data-toggle="modal" data-target="#myModal">See my <i
+                            class="fab fa-linkedin-in    "></i></a>
                 </div>
             </div>
-    </div>
-    
+        </div>
+        <div class="container">
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Liked in</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Hello this is my page.</p>
+                            <img src=file:///home/wilder/Images/Capture%20d%E2%80%99%C3%A9cran%20de%202019-03-15%2009-33-56.png
+                                width="400" height="150" alt="placeholder.com" id="photoprofil" />
+                                <p class="likedinSteve">To see more<a href="https://www.linkedin.com/in/cl%C3%A9a-godji-677138183/">click here</a> <br /></p>
+                                    
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src=javascript.js></script>
 </body>
 
 <!------------------------------------------ FOOTER -->
@@ -126,7 +164,7 @@
                     <p><a href="aboutme.html" alt="aboutme" title="About me">About me</a></p>
                 </div>
                 <div class="col-2">
-                <p><a href="https://en.wikipedia.org/wiki/FAQ" alt="FAQ" title="FAQ">FAQ</a></p> 
+                    <p><a href="https://en.wikipedia.org/wiki/FAQ" alt="FAQ" title="FAQ">FAQ</a></p>
                     <p><a href="http://www.techmonitor.net/tm/index.php?title=Disclaimer" alt="Disclaimer"
                             title="Legal Mentions">Legal mentions</a></p>
                 </div>
@@ -147,8 +185,8 @@
                     </div>
                 </div>
                 <div class="col-2">
-                    <div class="fa-2x"><a href="https://fontawesome.com/" alt="fontawesome-icon"
-                            title="Fontawesome"><i class="fab fa-font-awesome-flag"></i></a></div>
+                    <div class="fa-2x"><a href="https://fontawesome.com/" alt="fontawesome-icon" title="Fontawesome"><i
+                                class="fab fa-font-awesome-flag"></i></a></div>
                 </div>
                 <div class="col-2">
                     <div class="fa-2x"><a style="color:rgb(40, 167, 184);" href=" https://twitter.com/"
@@ -156,8 +194,8 @@
                     </div>
                 </div>
                 <div class="col-2">
-                    <div class="fa-2x"><a style="color:rgb(4, 49, 173);" href="https://www.facebook.com/" alt="facebook-icon" title="Facebook"><i
-                                class="fab fa-facebook-square"></i></a></div>
+                    <div class="fa-2x"><a style="color:rgb(4, 49, 173);" href="https://www.facebook.com/"
+                            alt="facebook-icon" title="Facebook"><i class="fab fa-facebook-square"></i></a></div>
                 </div>
                 <div class="col-2">
                     <div class="fa-2x"><a style="color:red;" href=" https://www.youtube.com/" alt="youtube-icon"
