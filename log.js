@@ -8,4 +8,5 @@ connect.addEventListener('click', function () {
 disconnect.addEventListener('click', function () {
   document.getElementById('loginBtn').classList.toggle('hidden');
   this.classList.toggle('hidden');
+  alert("Vous vous etes deconnecté avec succes")
 });
