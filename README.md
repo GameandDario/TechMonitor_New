@@ -1,2 +1,3 @@
-TechMonitor.com
-A static blog ordered by Steve J..
+# TechMonitor.com
+A static blog ordered by Steve J.
+Currently adding JS functionalities...

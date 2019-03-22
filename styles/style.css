@@ -2,14 +2,9 @@
 
 a:hover {
     color: #60ff00 !important;
-    /* ça marche pas sur le menu, à voir doc bootstrap (on verra demain) */
-    /* Hover Responsive */
 }
 
 /* Hover Responsive */
-
-/* Hover Responsive */
-
 a:focus {
     color: #60ff00 !important;
 }
@@ -25,7 +20,7 @@ a:focus {
 a:active {
     color: #60ff00 !important;
 }
-
+/* FONTS */
 h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 400%
@@ -85,7 +80,7 @@ blogt
     justify-content: space-between;
 }
 #navnav {
-    background-color: rgba(95, 90, 90, 0.726);
+    background-color: rgba(95, 90, 90, 0.96);
     font-family: 'Fjalla One', sans-serif;
 }
 
@@ -130,11 +125,15 @@ blogt
 
 #encadre {
     background-color: white;
-    opacity: 0.72;
+    opacity: 0.9;
     padding: 20px;
 }
 
 #encadre:hover {
+    opacity: 1;
+}
+
+#encadre:active {
     opacity: 1;
 }
 
@@ -293,7 +292,6 @@ a{
     margin-top: 10px;
 }
 
-
 #hiddendiv{
     text-align: center;
     display: none;
@@ -309,10 +307,8 @@ a{
     background: url(http://fantazia.f.a.pic.centerblog.net/130802093429141712.gif);
     background-size: cover;
     background-position: center;
-    
     -webkit-background-clip: text;
     color: transparent; // set to transparent, otherwise won't see the background
-    
     width: 300px;
     height: 100px;
     box-sizing: border-box;
@@ -349,10 +345,11 @@ h2 {
         }
 }
 .-text-center{
-        animation: fadeOut 2s ease;
+        animation: fadeOut 2s infinite;
         animation-fill-mode: forwards;
 }
 
+<<<<<<< HEAD
 
 .fa {
     font-size: 150% !important; 
@@ -365,3 +362,8 @@ h2 {
     color: darkblue;
   }
 
+=======
+.hidden {
+    display: none;
+}
+>>>>>>> 5bef9c40cbcc4a9640b6dde8f884ed6b22103be1
